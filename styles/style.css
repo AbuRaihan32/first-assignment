@@ -385,6 +385,11 @@ input[type=email] {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    
+}
+input[type=email]:focus{
+    outline: 0;
+    color: #F00;
 }
 
 input[type=submit] {
@@ -449,7 +454,7 @@ input[type=submit] {
     font-weight: 500;
     padding-top: 50px;
     border-top: 1px solid #15101E;
-    padding-right: 180px;
+    padding-right: 185px;
     margin: 0 140px;
 }
 
