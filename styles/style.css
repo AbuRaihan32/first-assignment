@@ -7,14 +7,19 @@
 
 /* start header styles */
 
+.header-wrap {}
+
 .header-titles {
-    max-width: 1320;
-    padding: 200px 344px;
+    width: 1320px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 190px 0;
     text-align: center;
-    background-image: url('../images/image.png');
+    background: linear-gradient(to bottom, transparent, black), url('../images/image.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 30px;
+    border-radius: 16px;
+
 }
 
 .header-title-h3 {
@@ -31,7 +36,12 @@
     font-weight: 900;
 }
 
+/* End header styles */
+
+
+
 /* start off section styles */
+
 .off-section-container {
     display: flex;
     align-items: center;
@@ -65,17 +75,24 @@
     margin-bottom: 48px;
 }
 
+/* End off section styles */
+
+
+
 /* start wellcome section styles */
 
 .wellcome-section-container {
+    width: 1320px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/Vectorrr.png);
+    background: linear-gradient(to left, transparent, black), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 120px;
-    padding: 126px 135px 67px 126px;
+    padding: 70px 0px 65px 0px;
+    border-radius: 16px;
 }
 
 .wellcome-box-1 {
@@ -91,7 +108,7 @@
 }
 
 .wellcome-description {
-    color: rgba(255, 255, 255, 0.80);
+    color: #D2D4D6;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -108,6 +125,8 @@
     text-decoration: none;
 }
 
+/* End wellcome section styles */
+
 
 /* start join now styles */
 .jonin-now-section-container {
@@ -115,6 +134,7 @@
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: auto;
     margin-top: 120px;
+    border-radius: 16px;
 }
 
 .join-now-box {
@@ -148,6 +168,10 @@
 .change-color {
     color: red;
 }
+
+/* End join now styles */
+
+
 
 /* start comming soon styles */
 
@@ -184,7 +208,7 @@
 }
 
 .commin-soon-description {
-    color: rgba(7, 2, 17, 0.60);
+    color: #11121F;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -205,11 +229,14 @@
 }
 
 .comming-soon-info-p {
-    color: rgba(7, 2, 17, 0.60);
+    color: #11121F;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
 }
+
+/* End comming soon styles */
+
 
 
 /* start holidays section styles */
@@ -237,23 +264,20 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-
 }
 
 .holidays-description {
-    color: rgba(7, 2, 17, 0.60);
+    color: #11121F;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
     margin: 30px 0;
-
 }
 
 .holidays-images {
     background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: 100% 2%, bottom;
-
+    background-position: 100% 2.5%, bottom;
     position: relative;
 }
 
@@ -261,13 +285,15 @@
     position: absolute;
     bottom: 260px;
     right: 280px;
-
 }
+
+/* End holidays section styles */
 
 
 /* :start awesome section styles */
 .awesome-container {
     max-width: 1320px;
+    height: 1120px;
     margin: auto;
 }
 
@@ -291,12 +317,11 @@
 }
 
 .awesome-info-description {
-    color: rgba(7, 2, 17, 0.60);
+    color: #11121F;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     width: 896px;
-
 }
 
 .awesome-images {
@@ -307,9 +332,11 @@
 }
 
 .awesome-images img:hover {
-    border: 4px solid rgb(51, 49, 49);
+    border: 4px solid #333131;
     border-radius: 16px;
 }
+
+/* End awesome section styles */
 
 
 /* start subscribe section styles */
@@ -338,7 +365,7 @@
 }
 
 .subscribe-description {
-    color: rgba(7, 2, 17, 0.60);
+    color: #11121F;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -354,7 +381,7 @@ input[type=email] {
     padding: 18px 0 23px 30px;
     border: none;
     border-radius: 50px 0px 0 50px;
-    color: rgba(7, 2, 17, 0.30);
+    color: #11121F;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -373,6 +400,9 @@ input[type=submit] {
     text-transform: capitalize
 }
 
+/* End subscribe section styles */
+
+
 /* start footer styles */
 .footer-container {
     width: 100%;
@@ -389,7 +419,7 @@ input[type=submit] {
     font-size: 23px;
     font-weight: 400;
     padding: 120px 0 50px 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid #15101E;
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -418,7 +448,9 @@ input[type=submit] {
     font-size: 24px;
     font-weight: 500;
     padding-top: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid #15101E;
     padding-right: 180px;
     margin: 0 140px;
 }
+
+/* End footer styles */
